@@ -9,7 +9,7 @@
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    background: url("mylheb.png") no-repeat center center fixed;
+    background: url("mylheb.jpg") no-repeat center center fixed;
     background-size: cover;
     color:#1a1a1a;
 }
