@@ -161,7 +161,7 @@ ul {
 </ul>
 
 <div class="highlight">
-Effectuez un dépôt de <strong>500 gourdes</strong> via <strong>MonCash ou NatCash</strong> pour confirmer le déplacement de l’agent.<br>
+Effectuez un dépôt de <strong>1000 gourdes</strong> via <strong>MonCash ou NatCash</strong> pour confirmer le déplacement de l’agent.<br>
 <strong>Ce montant est remboursé à la livraison.</strong>
 </div>
 
@@ -171,9 +171,13 @@ Effectuez un dépôt de <strong>500 gourdes</strong> via <strong>MonCash ou NatC
 <strong>Titulaire :</strong> Lemorin Hebert
 </p>
 
-<p><strong>Zones :</strong><br>
+<p><strong>Zonesde livraison gratuite :</strong><br>
 Port-au-Prince, Delmas, Pétion-Ville, Tabarre, Croix-des-Bouquets
 </p>
+</div>
+<div class="highlight">
+NB : Merci de préciser si vous avez besoin de monnaie.
+</div>
 </div>
 
 <!-- OPTION 2 -->
@@ -186,11 +190,6 @@ Port-au-Prince, Delmas, Pétion-Ville, Tabarre, Croix-des-Bouquets
 <li>Livraison activée immédiatement</li>
 <li>Livraison à la date convenue</li>
 </ul>
-
-<div class="highlight">
-NB : Merci de préciser si vous avez besoin de monnaie.
-</div>
-</div>
 
 <!-- BANQUES -->
 <div class="card">
