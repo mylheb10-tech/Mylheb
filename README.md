@@ -1,233 +1,192 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Mylheb Group – Procédure de Livraison & Paiement</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mylheb Group – Livraison & Paiement</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      margin: 0;
-      padding: 0;
-    }
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("mylheb.png") no-repeat center center fixed;
+    background-size: cover;
+    color:#1a1a1a;
+}
 
-    header {
-      background: #000;
-      padding: 20px;
-      text-align: center;
-    }
+.overlay{
+    background: rgba(255,255,255,0.93);
+    min-height:100vh;
+    padding:30px 15px;
+}
 
-    header img {
-      max-width: 220px;
-    }
+.container{
+    max-width:900px;
+    margin:auto;
+    background:#ffffff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 25px rgba(0,0,0,0.15);
+}
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background: #ffffff;
-      padding: 25px;
-    }
+.logo{
+    text-align:center;
+    margin-bottom:20px;
+}
 
-    h1, h2, h3 {
-      color: #222;
-    }
+.logo img{
+    max-width:180px;
+}
 
-    hr {
-      margin: 30px 0;
-    }
+h1{
+    text-align:center;
+    color:#0b3c5d;
+}
 
-    ul {
-      padding-left: 20px;
-    }
+h2{
+    color:#0b3c5d;
+    margin-top:30px;
+}
 
-    .btns {
-      text-align: center;
-      margin: 25px 0;
-    }
+h3{
+    color:#1f7a4f;
+}
 
-    .btn {
-      display: inline-block;
-      margin: 10px;
-      padding: 15px 25px;
-      border-radius: 6px;
-      color: #fff;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-    }
+ul{
+    line-height:1.8;
+}
 
-    .whatsapp {
-      background: #25D366;
-    }
+.notice{
+    background:#f1f7ff;
+    border-left:5px solid #0b3c5d;
+    padding:15px;
+    margin:20px 0;
+}
 
-    .call {
-      background: #007bff;
-    }
+.bank{
+    background:#fafafa;
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:15px;
+}
 
-    footer {
-      margin-top: 40px;
-      padding: 20px;
-      background: #222;
-      color: #fff;
-      text-align: center;
-      font-size: 14px;
-    }
-  </style>
+.buttons{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    padding:14px 22px;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.call{
+    background:#0b3c5d;
+}
+
+.footer{
+    text-align:center;
+    margin-top:30px;
+    font-size:14px;
+    color:#555;
+}
+</style>
 </head>
 
 <body>
-
-<header>
-  <!-- LOGO -->
-  <img src="logo.png" alt="Mylheb Group Logo">
-</header>
-
+<div class="overlay">
 <div class="container">
 
-  <!-- BOUTONS CONTACT -->
-  <div class="btns">
-    <a class="btn whatsapp" href="https://wa.me/50946106174" target="_blank">
-      💬 WhatsApp
-    </a>
-    <a class="btn call" href="tel:+50946106174">
-      📞 Appeler
-    </a>
-  </div>
-
-  <h1>📦 Procédure de Livraison & Paiement</h1>
-
-  <p><strong>Mylheb Group</strong></p>
-
-  <p>
-    Merci pour votre commande 🤝<br>
-    Veuillez lire attentivement les modalités ci-dessous afin d’assurer une
-    <strong>livraison rapide, sécurisée et sans erreur</strong>.
-  </p>
-
-  <hr>
-
-  <h2>✅ Option 1 – Paiement à la livraison (Cash on Delivery)</h2>
-
-  <p>Cette option est disponible <strong>uniquement dans certaines zones</strong>.</p>
-
-  <h3>📌 Informations à nous transmettre :</h3>
-  <ul>
-    <li>Nom complet</li>
-    <li>Adresse exacte ou point de rencontre</li>
-    <li>Numéro de téléphone joignable</li>
-    <li>Date souhaitée pour la livraison</li>
-  </ul>
-
-  <h3>🔐 Dépôt de confirmation (obligatoire)</h3>
-  <p>
-    Afin de confirmer le déplacement de l’agent, un
-    <strong>dépôt de 1 000 gourdes</strong> est requis via
-    <strong>MonCash ou NatCash</strong>.
-  </p>
-  <p>
-    🟢 <strong>Important :</strong><br>
-    Ce montant est <strong>remboursé intégralement au moment de la livraison</strong>,
-    car la livraison est <strong>gratuite</strong>.
-  </p>
-
-  <h3>💳 Coordonnées MonCash / NatCash</h3>
-  <ul>
-    <li>(+509) <strong>4610-6174</strong></li>
-    <li>(+509) <strong>3558-6968</strong></li>
-  </ul>
-  <p><strong>Titulaire :</strong> Lemorin Hebert</p>
-
-  <p>
-    📞 Dès réception du dépôt, un agent vous contactera pour confirmer l’heure de passage.
-  </p>
-
-  <p>
-    💰 Le <strong>montant total du produit</strong> est réglé
-    <strong>à la livraison</strong>.
-  </p>
-
-  <hr>
-
-  <h3>📍 Zones couvertes pour le paiement à la livraison</h3>
-  <ul>
-    <li>Port-au-Prince</li>
-    <li>Delmas</li>
-    <li>Pétion-Ville</li>
-    <li>Tabarre</li>
-    <li>Croix-des-Bouquets</li>
-  </ul>
-
-  <p>
-    ⚠️ Hors de ces zones, veuillez utiliser l’option 2.
-  </p>
-
-  <hr>
-
-  <h2>✅ Option 2 – Paiement complet avant livraison (Virement bancaire)</h2>
-
-  <p>Cette option permet une <strong>livraison immédiate sans dépôt préalable</strong>.</p>
-
-  <h3>📝 Procédure :</h3>
-  <ol>
-    <li>Effectuez le paiement total de la commande par <strong>virement bancaire</strong></li>
-    <li>Envoyez-nous une <strong>capture du reçu</strong></li>
-    <li>La livraison est programmée immédiatement</li>
-    <li>L’agent vous livre à la date convenue</li>
-  </ol>
-
-  <p>
-    📩 <strong>Merci de préciser si vous avez besoin de monnaie lors de la livraison.</strong>
-  </p>
-
-  <hr>
-
-  <h2>🏦 Informations Bancaires Officielles</h2>
-
-  <h3>🔹 Capital Bank</h3>
-  <ul>
-    <li><strong>Compte Gourdes :</strong> 1945884</li>
-    <li><strong>Compte USD :</strong> 1945886</li>
-  </ul>
-
-  <h3>🔹 Unibank</h3>
-  <ul>
-    <li><strong>Compte Gourdes :</strong> 102-2015-31043223</li>
-    <li><strong>Compte USD :</strong> 270-2016-25902334</li>
-  </ul>
-
-  <h3>🔹 Sogebank</h3>
-  <ul>
-    <li><strong>Compte Gourdes :</strong> 2601293034</li>
-    <li><strong>Compte USD :</strong> 2611167905</li>
-  </ul>
-
-  <p>
-    <strong>Titulaire des comptes :</strong><br>
-    <strong>LEMORIN Hebert</strong>
-  </p>
-
-  <hr>
-
-  <h2>📞 Assistance & Confirmation</h2>
-  <p>
-    Pour toute question ou confirmation de paiement, notre équipe reste disponible
-    et vous accompagnera jusqu’à la réception de votre commande.
-  </p>
-
-  <hr>
-
-  <h2>🔒 Sécurité & Transparence</h2>
-  <ul>
-    <li>Des transactions claires</li>
-    <li>Une communication directe</li>
-    <li>Une livraison fiable</li>
-    <li>Une traçabilité de chaque paiement</li>
-  </ul>
-
+<div class="logo">
+    <img src="logo.png" alt="Mylheb Group">
 </div>
 
-<footer>
-  © 2025 Mylheb Group – Tous droits réservés
-</footer>
+<h1>📦 Procédure de Livraison et Paiement</h1>
+
+<p><strong>Merci de votre commande !</strong><br>
+Voici les modalités à suivre pour une livraison rapide et sécurisée.</p>
+
+<h2>✅ Option 1 – Paiement à la livraison (Cash on Delivery)</h2>
+
+<p><strong>Envoyez-nous :</strong></p>
+<ul>
+<li>Nom complet</li>
+<li>Adresse exacte ou point de rencontre</li>
+<li>Numéro de téléphone joignable</li>
+<li>Date souhaitée pour la livraison</li>
+</ul>
+
+<div class="notice">
+<strong>Dépôt de confirmation :</strong><br>
+Effectuez un dépôt de <strong>1000 gourdes</strong> via <strong>MonCash ou NatCash</strong> pour confirmer le déplacement de l’agent.<br><br>
+🟢 <strong>Ce montant est remboursé au moment de la livraison</strong>, car la livraison est gratuite.
+</div>
+
+<p><strong>Coordonnées MonCash / NatCash :</strong></p>
+<ul>
+<li>(+509) 4610-6174</li>
+<li>(+509) 3558-6968</li>
+</ul>
+
+<p><strong>Titulaire :</strong> Lemorin Hebert</p>
+
+<p>À réception du dépôt, un agent vous contactera pour confirmer l'heure de passage.<br>
+Le montant total du produit est réglé à la livraison.</p>
+
+<p><strong>Zones couvertes :</strong><br>
+Port-au-Prince, Delmas, Pétion-Ville, Tabarre, Croix-des-Bouquets</p>
+
+<h2>✅ Option 2 – Paiement complet avant livraison (Virement bancaire)</h2>
+
+<ul>
+<li>Paiement total par virement bancaire</li>
+<li>Envoyez le screenshot du reçu</li>
+<li>Livraison activée immédiatement</li>
+<li>Livraison à la date convenue</li>
+</ul>
+
+<p><strong>NB :</strong> Merci de préciser si vous avez besoin de monnaie.</p>
+
+<h2>🏦 Informations Bancaires</h2>
+
+<div class="bank">
+<h3>Capital Bank</h3>
+<p>Compte Gourdes : <strong>1945884</strong><br>
+Compte USD : <strong>1945886</strong></p>
+</div>
+
+<div class="bank">
+<h3>Unibank</h3>
+<p>Compte Gourdes : <strong>102-2015-31043223</strong><br>
+Compte USD : <strong>270-2016-25902334</strong></p>
+</div>
+
+<div class="bank">
+<h3>Sogebank</h3>
+<p>Compte Gourdes : <strong>2601293034</strong><br>
+Compte USD : <strong>2611167905</strong></p>
+</div>
+
+<p><strong>Titulaire des comptes :</strong> Lemorin Hebert</p>
+
+<div class="buttons">
+<a class="btn whatsapp" href="https://wa.me/50935586968" target="_blank">💬 WhatsApp</a>
+<a class="btn call" href="tel:+50946106174">📞 Appeler</a>
+</div>
+
+<div class="footer">
+© 2025 Mylheb Group – Tous droits réservés
+</div>
+
+</div>
+</div>
