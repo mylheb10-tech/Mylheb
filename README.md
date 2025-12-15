@@ -231,6 +231,3 @@
 <footer>
   © 2025 Mylheb Group – Tous droits réservés
 </footer>
-
-</body>
-</html>
