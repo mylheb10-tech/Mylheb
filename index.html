@@ -6,7 +6,6 @@
 <title>Mylheb Group – Livraison & Paiement</title>
 
 <style>
-/* RESET */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,26 +13,22 @@
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
-/* BACKGROUND IMAGE */
 body {
     background: url("mylheb.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
-/* OVERLAY TRÈS LÉGER */
 .overlay {
     min-height: 100vh;
     background: rgba(0,0,0,0.25);
     padding: 30px 15px;
 }
 
-/* CONTAINER */
 .container {
     max-width: 1100px;
     margin: auto;
 }
 
-/* LOGO */
 .logo {
     text-align: center;
     margin-bottom: 25px;
@@ -42,41 +37,38 @@ body {
     max-width: 160px;
 }
 
-/* GRID */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 22px;
 }
 
-/* BLOCS (CARTES) */
 .card {
-    background: rgba(255,255,255,0.82); /* léger */
+    background: rgba(255,255,255,0.82);
     border-radius: 14px;
     padding: 22px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     backdrop-filter: blur(4px);
 }
 
-/* TITRES */
-h1 {
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 25px;
-    text-shadow: 0 2px 6px rgba(0,0,0,0.4);
-}
-
-h2 {
+.card h2 {
     color: #0b3c5d;
     margin-bottom: 12px;
+    font-size: 20px;
 }
 
-h3 {
+.card h3 {
     color: #1f5fa0;
-    margin-bottom: 8px;
+    margin-top: 12px;
 }
 
-/* TEXT */
 p, li {
     line-height: 1.7;
     color: #333;
@@ -86,16 +78,14 @@ ul {
     padding-left: 18px;
 }
 
-/* INFO BOX */
 .highlight {
     background: rgba(11,60,93,0.08);
     border-left: 4px solid #0b3c5d;
     padding: 12px;
-    margin-top: 10px;
+    margin-top: 12px;
     border-radius: 6px;
 }
 
-/* BUTTONS */
 .buttons {
     display: flex;
     justify-content: center;
@@ -125,7 +115,6 @@ ul {
     background: #0b3c5d;
 }
 
-/* FOOTER */
 .footer {
     text-align: center;
     color: #fff;
@@ -150,7 +139,7 @@ ul {
 
 <!-- OPTION 1 -->
 <div class="card">
-<h2>✅ Option 1 – Paiement à la livraison</h2>
+<h2>Option 1 — Paiement à la livraison</h2>
 
 <p><strong>Envoyez-nous :</strong></p>
 <ul>
@@ -161,8 +150,8 @@ ul {
 </ul>
 
 <div class="highlight">
-Effectuez un dépôt de <strong>1000 gourdes</strong> via <strong>MonCash ou NatCash</strong> pour confirmer le déplacement de l’agent.<br>
-<strong>Ce montant est remboursé à la livraison.</strong>
+Dépôt de <strong>1 000 gourdes</strong> via <strong>MonCash ou NatCash</strong> pour confirmer le déplacement de l’agent.<br>
+<strong>Montant remboursé à la livraison.</strong>
 </div>
 
 <p><strong>MonCash / NatCash :</strong><br>
@@ -171,10 +160,10 @@ Effectuez un dépôt de <strong>1000 gourdes</strong> via <strong>MonCash ou Nat
 <strong>Titulaire :</strong> Lemorin Hebert
 </p>
 
-<p><strong>Zonesde livraison gratuite :</strong><br>
+<p><strong>Zones ou le paiement a la livraison est disponible :</strong><br>
 Port-au-Prince, Delmas, Pétion-Ville, Tabarre, Croix-des-Bouquets
 </p>
-</div>
+
 <div class="highlight">
 NB : Merci de préciser si vous avez besoin de monnaie.
 </div>
@@ -182,7 +171,7 @@ NB : Merci de préciser si vous avez besoin de monnaie.
 
 <!-- OPTION 2 -->
 <div class="card">
-<h2>✅ Option 2 – Paiement bancaire</h2>
+<h2>Option 2 — Paiement bancaire</h2>
 
 <ul>
 <li>Paiement total par virement bancaire</li>
@@ -190,6 +179,7 @@ NB : Merci de préciser si vous avez besoin de monnaie.
 <li>Livraison activée immédiatement</li>
 <li>Livraison à la date convenue</li>
 </ul>
+</div>
 
 <!-- BANQUES -->
 <div class="card">
@@ -213,7 +203,7 @@ USD : <strong>2611167905</strong></p>
 </div>
 
 <div class="buttons">
-<a href="https://wa.me/50946106174" class="btn whatsapp">💬 WhatsApp</a>
+<a href="https://wa.me/50935586968" class="btn whatsapp">💬 WhatsApp</a>
 <a href="tel:+50946106174" class="btn call">📞 Appeler</a>
 </div>
 
