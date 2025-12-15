@@ -6,99 +6,104 @@
 <title>Mylheb Group – Livraison & Paiement</title>
 
 <style>
-body{
-    margin:0;
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background: url("mylheb.jpg") no-repeat center center fixed;
+}
+
+/* IMAGE DE FOND */
+body {
+    background-image: url("mylheb.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    color:#1a1a1a;
+    background-attachment: fixed;
 }
 
-.overlay{
-    background: rgba(255,255,255,0.93);
-    min-height:100vh;
-    padding:30px 15px;
+/* VOILE POUR LA LISIBILITÉ */
+.overlay {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 30px 15px;
 }
 
-.container{
-    max-width:900px;
-    margin:auto;
-    background:#ffffff;
-    padding:30px;
-    border-radius:12px;
-    box-shadow:0 0 25px rgba(0,0,0,0.15);
+/* CONTENU */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }
 
-.logo{
-    text-align:center;
-    margin-bottom:20px;
+/* LOGO */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 180px;
 }
 
-.logo img{
-    max-width:180px;
+/* TITRES */
+h1, h2, h3 {
+    color: #0b3c5d;
 }
 
-h1{
-    text-align:center;
-    color:#0b3c5d;
+/* LISTES */
+ul {
+    line-height: 1.8;
 }
 
-h2{
-    color:#0b3c5d;
-    margin-top:30px;
+/* BLOCS INFO */
+.notice {
+    background: #f1f7ff;
+    border-left: 5px solid #0b3c5d;
+    padding: 15px;
+    margin: 20px 0;
 }
 
-h3{
-    color:#1f7a4f;
+.bank {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
-ul{
-    line-height:1.8;
+/* BOUTONS */
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
 }
 
-.notice{
-    background:#f1f7ff;
-    border-left:5px solid #0b3c5d;
-    padding:15px;
-    margin:20px 0;
+.btn {
+    padding: 14px 22px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
 }
 
-.bank{
-    background:#fafafa;
-    padding:15px;
-    border-radius:8px;
-    margin-bottom:15px;
+.whatsapp {
+    background: #25D366;
 }
 
-.buttons{
-    display:flex;
-    gap:15px;
-    justify-content:center;
-    margin-top:30px;
-    flex-wrap:wrap;
+.call {
+    background: #0b3c5d;
 }
 
-.btn{
-    padding:14px 22px;
-    color:#fff;
-    text-decoration:none;
-    font-weight:bold;
-    border-radius:8px;
-}
-
-.whatsapp{
-    background:#25D366;
-}
-
-.call{
-    background:#0b3c5d;
-}
-
-.footer{
-    text-align:center;
-    margin-top:30px;
-    font-size:14px;
-    color:#555;
+/* FOOTER */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
 }
 </style>
 </head>
@@ -120,68 +125,76 @@ Voici les modalités à suivre pour une livraison rapide et sécurisée.</p>
 
 <p><strong>Envoyez-nous :</strong></p>
 <ul>
-<li>Nom complet</li>
-<li>Adresse exacte ou point de rencontre</li>
-<li>Numéro de téléphone joignable</li>
-<li>Date souhaitée pour la livraison</li>
+    <li>Nom complet</li>
+    <li>Adresse exacte ou point de rencontre</li>
+    <li>Numéro de téléphone joignable</li>
+    <li>Date souhaitée pour la livraison</li>
 </ul>
 
 <div class="notice">
-<strong>Dépôt de confirmation :</strong><br>
-Effectuez un dépôt de <strong>1000 gourdes</strong> via <strong>MonCash ou NatCash</strong> pour confirmer le déplacement de l’agent.<br><br>
+Effectuez un dépôt de <strong>500 gourdes</strong> via <strong>MonCash ou NatCash</strong> pour confirmer le déplacement de l’agent.<br><br>
 🟢 <strong>Ce montant est remboursé au moment de la livraison</strong>, car la livraison est gratuite.
 </div>
 
 <p><strong>Coordonnées MonCash / NatCash :</strong></p>
 <ul>
-<li>(+509) 4610-6174</li>
-<li>(+509) 3558-6968</li>
+    <li>(+509) 4610-6174</li>
+    <li>(+509) 3558-6968</li>
 </ul>
 
 <p><strong>Titulaire :</strong> Lemorin Hebert</p>
 
-<p>À réception du dépôt, un agent vous contactera pour confirmer l'heure de passage.<br>
-Le montant total du produit est réglé à la livraison.</p>
+<p>
+À réception du dépôt, un agent vous contactera pour confirmer l'heure de passage.<br>
+Vous réglez le montant total du produit à la livraison.
+</p>
 
 <p><strong>Zones couvertes :</strong><br>
-Port-au-Prince, Delmas, Pétion-Ville, Tabarre, Croix-des-Bouquets</p>
+Port-au-Prince, Delmas, Pétion-Ville, Tabarre, Croix-des-Bouquets
+</p>
 
-<h2>✅ Option 2 – Paiement complet avant livraison (Virement bancaire)</h2>
+<h2>✅ Option 2 – Paiement complet par virement bancaire (avant livraison)</h2>
 
 <ul>
-<li>Paiement total par virement bancaire</li>
-<li>Envoyez le screenshot du reçu</li>
-<li>Livraison activée immédiatement</li>
-<li>Livraison à la date convenue</li>
+    <li>Paiement du montant total par transfert bancaire</li>
+    <li>Envoi du screenshot du reçu</li>
+    <li>Livraison activée immédiatement</li>
+    <li>Livraison à la date convenue</li>
 </ul>
 
-<p><strong>NB :</strong> Merci de préciser si vous avez besoin de monnaie.</p>
+<p><strong>NB :</strong> Merci de préciser si nous devons vous apporter de la monnaie.</p>
 
 <h2>🏦 Informations Bancaires</h2>
 
 <div class="bank">
 <h3>Capital Bank</h3>
-<p>Compte Gourdes : <strong>1945884</strong><br>
-Compte USD : <strong>1945886</strong></p>
+<p>
+Compte Gourdes : <strong>1945884</strong><br>
+Compte USD : <strong>1945886</strong>
+</p>
 </div>
 
 <div class="bank">
 <h3>Unibank</h3>
-<p>Compte Gourdes : <strong>102-2015-31043223</strong><br>
-Compte USD : <strong>270-2016-25902334</strong></p>
+<p>
+Compte Gourdes : <strong>102-2015-31043223</strong><br>
+Compte USD : <strong>270-2016-25902334</strong>
+</p>
 </div>
 
 <div class="bank">
 <h3>Sogebank</h3>
-<p>Compte Gourdes : <strong>2601293034</strong><br>
-Compte USD : <strong>2611167905</strong></p>
+<p>
+Compte Gourdes : <strong>2601293034</strong><br>
+Compte USD : <strong>2611167905</strong>
+</p>
 </div>
 
 <p><strong>Titulaire des comptes :</strong> Lemorin Hebert</p>
 
 <div class="buttons">
-<a class="btn whatsapp" href="https://wa.me/50935586968" target="_blank">💬 WhatsApp</a>
-<a class="btn call" href="tel:+50946106174">📞 Appeler</a>
+    <a class="btn whatsapp" href="https://wa.me/50946106174" target="_blank">💬 WhatsApp</a>
+    <a class="btn call" href="tel:+50946106174">📞 Appeler</a>
 </div>
 
 <div class="footer">
@@ -190,3 +203,5 @@ Compte USD : <strong>2611167905</strong></p>
 
 </div>
 </div>
+</body>
+</html>
